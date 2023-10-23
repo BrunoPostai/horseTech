@@ -20,7 +20,7 @@
 
 }
 h1{
-  color: var(--primary-color); 
+  color: var(--primary-color); /*testando a var*/
 }
 a {
   font-weight: 500;

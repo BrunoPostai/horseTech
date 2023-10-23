@@ -16,17 +16,17 @@ const router = createBrowserRouter([
   },
   {
     path: "/loja",
-    element: <Loja />,//substituir essa parte por uma página válida
+    element: <Loja />,
     errorElement: <ErrorPage />,//Tela de página não encontrada
   },
   {
     path: "/blog",
-    element: <Blog />,//substituir essa parte por uma página válida
+    element: <Blog />,
     errorElement: <ErrorPage />,//Tela de página não encontrada
   },
   {
     path: "/contato",
-    element: <Contato />,//substituir essa parte por uma página válida
+    element: <Contato />,
     errorElement: <ErrorPage />,//Tela de página não encontrada
   },
 ]);
