@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./styles.header.css";
 
 function Header(props) {
-  const [navItems, setNavItems] = useState ([
+  const [navItems, setNavItems] = useState([
     { text: "Home", link: "/" },
     { text: "Loja", link: "/loja" },
     { text: "Blog", link: "/blog" },
@@ -18,7 +18,7 @@ function Header(props) {
   ]);
 
   return (
-    <div className="section">
+    <div className={styles.section}>
       <div className="header">
         <div className="background-black-left">
           <div className="logo">
