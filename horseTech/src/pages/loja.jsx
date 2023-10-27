@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../componentes/card/header/index-header";
 
 function Loja() {
   return (
+    
     <div>
+      <Header></Header>
       <h1>Pagina da loja</h1>
       <p>retornar ao <a href="/">menu</a></p>
     </div>
