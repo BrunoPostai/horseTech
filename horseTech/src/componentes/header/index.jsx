@@ -18,7 +18,7 @@ function Header(props) {
   ]);
 
   return (
-    <div className={styles.section}>
+    <div className="section">
       <div className="header">
         <div className="background-black-left">
           <div className="logo">

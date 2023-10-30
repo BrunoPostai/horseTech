@@ -1,9 +1,8 @@
 import React from "react";
-import Header from "../componentes/card/header/index-header";
+import Header from "../componentes/header/index";
 
 function Loja() {
   return (
-    
     <div>
       <Header></Header>
       <h1>Pagina da loja</h1>
