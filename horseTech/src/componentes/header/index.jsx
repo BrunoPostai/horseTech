@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.header.css";
 
-function Header(props) {
+function Header(){
   const [navItems, setNavItems] = useState([
     { text: "Home", link: "/" },
     { text: "Loja", link: "/loja" },

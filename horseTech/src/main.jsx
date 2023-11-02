@@ -8,6 +8,7 @@ import Blog from "./pages/blog";
 import ErrorPage from "./pages/error-page";
 import Contato from "./pages/contato";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
