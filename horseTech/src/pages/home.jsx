@@ -4,11 +4,6 @@ import Header from "../componentes/header";
 
 function Home() {
 
-  useEffect(() => {
-    fetch('https://swapi.dev/api/planets/1/',{method:"GET"})
-    .then(response => response.json())
-    .then(data => console.log(data))    
-  }, []);
 
   return (
     <>
