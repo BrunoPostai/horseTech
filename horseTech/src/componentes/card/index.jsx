@@ -1,13 +1,9 @@
 import React from "react";
-import styles from './styles.module.css';
+import CardList from "./cardList";
 
-export function Card(props) {
-  return (
-    <div>
-      { <img src={props.sela} alt="" /> }
-      <div className={styles.componente}>{props.name}</div>
-    </div>
-  );
+
+export function Card() {
+  return (<CardList></CardList>);
 }
 
-
+export default Card;

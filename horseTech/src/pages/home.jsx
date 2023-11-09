@@ -1,13 +1,24 @@
-import React from 'react';
-import { Card } from '../componentes/card/index';
-import sela from "/sela1.png";
+import React, { useEffect, useMemo, useState, useRef } from "react";
+import { Card } from "../componentes/card/index";
+import Header from "../componentes/header";
+
 function Home() {
-    return (
-        <>
-          <Card name="primeiro"></Card>
-          <Card sela={sela}></Card>
-        </>
-      )
+  const [count, setCount] = useState(Number);
+
+  useEffect(() => {
+    if(count > 0){
+      alert("Count foi alterado");
     }
+    
+  }, [count]);
+
+  const inputRef = useRef();
+  return (
+    <>
+      <Header></Header>
+      <Card></Card>
+    </>
+  );
+}
 
 export default Home;

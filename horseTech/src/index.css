@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "Josefin";
+  src: url("../public/fontes/Josefin_Slab/");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../public/fontes/Nunito/Nunito-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Sans";
+  src: url("../public/fontes/Open_Sans/OpenSans.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/fontes/Roboto_Serif/Roboto.ttf");
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Josefin", "Sans", "Nunito", "Roboto";
   line-height: 1.5;
   font-weight: 400;
 
@@ -12,10 +28,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
 
+  --primary-color: #dcb249;
+  --black-color: #000;
+  --gray-color: #282828;
+  --text-color: #ffffff;
+
+}
+h1{
+  color: var(--primary-color); /*testando a var*/
+}
 a {
-  font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
