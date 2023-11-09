@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
 
-function CardList(props) {
+function CardList(props) {//porque tem props aqui?
   const items = [
     {
       img: "/sela1.png",

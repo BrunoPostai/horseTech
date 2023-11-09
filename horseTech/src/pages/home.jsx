@@ -3,16 +3,13 @@ import { Card } from "../componentes/card/index";
 import Header from "../componentes/header";
 
 function Home() {
-  const [count, setCount] = useState(Number);
 
   useEffect(() => {
-    if(count > 0){
-      alert("Count foi alterado");
-    }
-    
-  }, [count]);
+    fetch('https://swapi.dev/api/planets/1/',{method:"GET"})
+    .then(response => response.json())
+    .then(data => console.log(data))    
+  }, []);
 
-  const inputRef = useRef();
   return (
     <>
       <Header></Header>

@@ -3,7 +3,7 @@ import CardList from "./cardList";
 
 
 export function Card() {
-  return (<CardList></CardList>);
+  return (<CardList></CardList>);//ué kkkkkkk
 }
 
 export default Card;
