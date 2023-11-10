@@ -2,26 +2,8 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
 
-function CardList(props) {//porque tem props aqui?
-  const items = [
-    {
-      img: "/sela1.png",
-      title: "Sela 1",
-      info: {
-        price: 10,
-        desc: "sela de couro preto",
-      },
-    },
-    {
-      img: "/sela1.png",
-      title: "Sela 2",
-      info: {
-        price: 20,
-        desc: "sela de couro",
-      },
-    },
-  ];
-
+function CardList(props) {
+  const items = props.items;
   return (
     <div>
       {items.map((item, index) => (
