@@ -22,7 +22,7 @@ const showModal = {
 };
 
 export function ModalTest() {
-  const [state, dispatch] = useReducer(reducer, {});
+  const [state, dispatch] = useReducer(reducer,);
   const [modal, setModal] = useState();
 
   const handleShowModal = async () => {
