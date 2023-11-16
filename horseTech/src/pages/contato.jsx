@@ -1,14 +1,9 @@
-import React from "react";
-
-// import { Container } from './styles';
+import CardForm from "../componentes/CardForm";
 
 function Contato() {
   return (
     <div>
-      <h1>Contatos da loja</h1>
-      <p>
-        retornar ao <a href="/">menu</a>
-      </p>
+      <CardForm />
     </div>
   );
 }

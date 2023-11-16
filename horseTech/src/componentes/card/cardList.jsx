@@ -1,8 +1,7 @@
-import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
 
-function CardList(props) {
+function CardList() {
   const items = [
     {
       img: "/sela1.png",
