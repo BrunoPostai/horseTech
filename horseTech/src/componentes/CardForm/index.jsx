@@ -9,7 +9,25 @@ const CardForm = () => {
     email:['joaovitorminosso','yahoo','.com.br'],//meu e-mail é joaovitorminosso@yahoo.com.br (o @ deve ser removido)
     userName:''
   };
-  console.log(userName)
+  console.log(userName);
+  const str = 'Bruno';
+
+  console.log(str.substring(1, 3));//remove 3 caracter começando do segundo, se chegar no final ele volta no começo por isso tirou o B também
+  //ru
+  console.log(str.substring(2));//remove só dois caracter direto no começo
+  //uno
+  const str2 = 'O Bruno é desenvolvedor front-end React.';
+
+  console.log(str2.slice(33));//removeu tudo até React, remove 33 caracter
+  //nd React.
+  console.log(str2.slice(2, 24));//puladno os dois primeiros pegou 24 caracter pra frente
+  //Bruno é desenvolvedor 
+  console.log(str2.slice(-7));//pegou os 7 últimos caracteres
+  // React.
+  console.log(str2.slice(-9, -5));
+
+
+
   return (
     <div className={styles.container}>
       <h3>Nome</h3>
