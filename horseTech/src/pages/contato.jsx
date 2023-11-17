@@ -11,6 +11,7 @@ function Contato() {
   React.useEffect(() => {
     fetch(`https://swapi.dev/api/people/?page=${pageNumber}`, {
       method: "GET",
+      method: "GET",
     })
       .then((response) => response.json())
       .then((data) => {
